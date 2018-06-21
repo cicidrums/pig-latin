@@ -10,9 +10,11 @@ $(document).ready(function() {
 
     for (var index = 0; index < phraseSplit.length; index += 1) {
       var word = phraseSplit[index]
-      if ( word[0] === "a","e","i","o","u" ) {
+      if ( word[0] === "a" ) {
         word = word.concat("way");
         phraseSplit[index] = word;
+      } else {
+
       }
     };
 
